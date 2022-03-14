@@ -6,10 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rest countries</title>
+    <style>
+        .countries {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .country {
+            border: 3px solid goldenrod;
+            background-color: aquamarine;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .country img {
+            width: 200px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Rest countries i am comming to youu!!</h1>
+    <div id="countries" class="countries">
+
+    </div>
     <script src="js/app.js"></script>
 </body>
 
